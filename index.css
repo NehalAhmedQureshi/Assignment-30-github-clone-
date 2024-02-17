@@ -1,0 +1,502 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    /* background-color:#0d1117 ; */
+    width: 100%;
+}
+header {
+    width: 100%;
+    /* height: 80vh; */
+    background-color:#0d1117 ;
+    font-family: "Mona Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.navbar {
+    width: 100%;
+    height: 10vh;
+}
+.navbar-section {
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.navbar-section .logo i {
+    font-size: 3rem;
+}
+.navbar-section .menu-link {
+    display: flex;
+    width: 70%;
+    justify-content: end;
+    
+}
+.navbar-section .menu-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: "Mona Sans", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} 
+.menu-link a:nth-child(2){
+    margin-left: 2rem;
+}
+main {
+    /* background-color: #fff; */
+    background-color:#0d1117;
+    width: 100%;
+}
+
+.home-content{
+    width: 40%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    /* margin-left: 1rem; */
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+.home-content h1 {
+    font-size: 7.2rem;
+    font-weight:80rem ;
+    line-height: 6rem;
+    letter-spacing: -0.3rem;
+    color: #fff;
+    font-family: "Mona Sans", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-bottom: 1.6rem;
+}
+.home-content p {
+    color: #6E7681;
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+}
+.home-content a.btn {
+    color: #000;
+    font-family: "Mona Sans", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-decoration: none;
+    background-color: #f6f8fA;
+    width: 20rem;
+    font-size: 2rem;
+    /* font-weight: bold; */
+    padding:1.6rem 3rem 2rem ;
+    border-radius: 5px;
+}
+.home-content a.link {
+    margin-top: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.home2 {
+    width: 100%;
+    height: 740px;
+    padding: 64px 0px 4px;
+    font-size: 14px;
+    color: #E6EDF3;
+}
+.home2 .home {
+    width: 90%;
+    margin: auto;
+    height: 57.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-items: center; */
+}
+.home2 .home .header h3{
+    height: 3.6rem;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
+    font-size: 2.4rem;
+    margin: 0px 0px 8px;
+    text-align: center;
+}
+.home2 .home .header h3 .symbol {
+    color:#2F81F7;
+}
+.home2 .home .header p{
+    text-align: center;
+    height: 2.4rem;
+    font-size: 16px;
+    margin: 0rem 0rem 2.4rem;
+}
+.home2 .home .content {
+    height: 48rem;
+    background-color: black;
+    margin-bottom:5rem;
+}
+.home .content .contentheader {
+    height: 16px;
+    display:flex ;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.content .contentheader .left {
+    display: flex;
+    width: 55px;
+    height: 21px;
+    /* background-color: #fff; */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4px;
+}
+.left .left1,.left2,.left3 {
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+    /* margin-right: 4px; */
+    border-radius: 25px;
+}
+.content .contenttext {
+    height: 26rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 4rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+.home .footer {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #0d1117;
+}
+.footer .footersection{
+    margin: 0px 216px 32px ;
+    /* width: 100%; */
+}
+.footersection h5 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 800px;
+}
+.footersection h5 span {
+    font-size: 24px;
+    font-weight: 800px;
+}
+.home3 {
+    background-color: #fff;
+    height: 44.2rem;
+    width: 100%;
+    padding: 74px 24px 24px;
+    padding-bottom: 5rem;
+    /* margin-bottom:; */
+}
+.home3 .homesection {
+    width: 100%;
+    height: 35.4vh;
+    color: #000;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.home3 .homesection h2 {
+    width:92.4%;
+    height: 13.6vh;
+    font-size: 48px;
+    font-family: "Mona Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 4.5rem;
+    margin: 0px 0px 4.8rem;
+}
+.home3 .homesection .row {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+}
+section {
+    width: 100%;
+}
+.home3 .homesection .row .col {
+    width: 30.8%;
+    height: 13vh;
+    margin-bottom: 40px;
+}
+.col h3 {
+    font-size: 2.4rem;
+    margin-bottom: 4px;
+}
+.col p {
+    font-size:1.4rem ;
+    margin-bottom: 10px;
+}
+.col a {
+    text-decoration: none;
+    color: #0969DA;
+    font-size: 1.2rem;
+}
+.home4 {
+    
+    width: 100%;
+    height: 41.5vh;
+    background: url(https://cli.github.com/assets/images/square-pattern.png);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    /* border: 2px solid black; */
+}
+.home4-section{
+    /* position: absolute; */
+    /* top: 20rem; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 10.5vh;
+    height: 20rem;
+    justify-content: center;
+    background-color: #fff;
+    padding: 1%;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+}
+.home4-section h2 {
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+}
+.home4-section p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.home4-section .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1B1f23;
+    width: 21.8rem;
+    padding: 1.46rem 2.4rem 1.7rem;
+    font-size: 16px;
+    border-radius: 0.9rem;
+}
+.home4-section .link {
+    color: #0969DA;
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+}
+footer {
+    position: relative;
+    height: 550px;
+    background-color: #fff;
+}
+.footer {
+    width: 100%;
+    /* height: 80vh; */
+    background-color: #fff;
+    margin-bottom: 5rem;
+}
+.footer-section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.fhome {
+    flex-grow: 1;
+}
+.fhome h2 {
+    font-size: 3rem;
+    text-align: left;
+}
+.fcontent {
+    flex-grow: 2;
+}
+.frow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.frow .fcol li {
+    list-style: none;
+    line-height: 5rem;
+    font-size: 16px;
+}
+.frow .fcol li:nth-child(1){
+    font-weight: bold;
+}
+.last {
+    position: absolute;
+    bottom: -200px;
+    left: 3%;
+    /* border: 2px solid black; */
+    width: 95%;
+    margin: auto;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f8fa;
+    align-items: center;
+}
+.last #first {
+    list-style: none;
+    display: flex;
+}
+.last #first li {
+    margin-left: 1rem;
+    font-size: 12px;
+}
+.last #first li a {
+    text-decoration: none;
+    color: #000;
+}
+.last #second {
+    list-style: none;
+    display: flex;
+}
+.last #second li {
+    margin-right: 20px;
+    font-size: 2rem;
+}
+.last #second li a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* //////////////////////1011 - 768////////////// */
+
+@media screen and (min-width:768px) and (max-width:1011px) {
+    .home-content {
+        width: 80%;
+        height: 50vh;
+    }
+    .footer-section {
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .home4{
+        width: 90%;
+        margin: auto;
+    }
+    .home4-section{
+        width: 90%;
+    }
+    .home4-section .btn {
+        width: 23.5rem;
+    }
+    .footer .footersection{
+        margin: 0px 150px 32px ;
+        /* width: 100%; */
+    }
+    .last {
+        position: absolute;
+        bottom: -300px;
+    }
+}
+
+/* ///////////////////544-767/////////////////// */
+@media screen and (min-width:544px) and (max-width:767px) {
+    html {
+        font-size: 9px;
+    }
+    .home-content {
+        width: 80%;
+        height: 50vh;
+        
+    }
+    .home3 .homesection .row {
+        flex-direction: column;
+        height: 110vh;
+    }
+    .home3 {
+        height: 120vh;
+        margin-bottom: 2rem;
+    }
+    .home3 .homesection .row {
+        gap: 2rem;
+    }
+    .home4 {
+        height: 50vh;
+    }
+    .home4-section{
+        width: 96%;
+    }
+    .home4-section .btn {
+        width: 24.5rem;
+    }
+    .footer-section {
+        flex-direction: column;
+        gap: 6rem;
+    }
+    .home3 .homesection .row .col {
+        width: 100%;
+    }
+    .footer .footersection{
+        margin: 0px 70px 32px ;
+        /* width: 100%; */
+    }
+}
+/* //////////home-543//////// */
+@media screen and (max-width:543px) {
+    .frow {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    html {
+        font-size: 8px;
+    }
+    .home-content {
+        width: 80%;
+        height: 50vh;
+        margin-bottom: 30px;
+    }
+    .home2 {
+        height: 65rem;
+    }
+    .home3 .homesection .row {
+        flex-direction: column;
+        height: 110vh;
+    }
+    .home3 {
+        height: 120vh;
+        margin-bottom: 2rem;
+    }
+    .home3 .homesection .row {
+        gap: 2rem;
+    }
+    .home4 {
+        height: 50vh;
+    }
+    .home4-section{
+        width: 96%;
+    }
+    .home4-section .btn {
+        width: 24.5rem;
+    }
+    .footer-section {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .home3 .homesection .row .col {
+        width: 100%;
+    }
+    .home3 .homesection h2 {
+        height: 30vh;
+    }
+    .footer .footersection{
+        margin: 0px 50px 32px ;
+        /* width: 100%; */
+    }
+    .last {
+        position: absolute;
+        bottom: -600px;
+    }
+    .last #first li  {
+        font-size: 8px;
+        margin-right: 2px;
+    }
+    .home2 .home .content {
+        height: 60vh;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+}
